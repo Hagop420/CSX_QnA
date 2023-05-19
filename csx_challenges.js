@@ -298,3 +298,25 @@ console.log(addWaldo(siliconValley)) // should log:{ Richard: 'Hendricks', Erlic
 // // Uncomment these to check your work!
 // const sil = {'Richard': 'Hendricks', 'Erlich': 'Bachman', 'Bertram': 'Gilfoyle'}
 // console.log(addWaldo(sil)) // should log:{ Richard: 'Hendricks', Erlich: 'Bachman', Bertram: 'Gilfoyle', Waldo: 'unknown' }
+
+
+
+
+
+
+// ADD CODE HERE
+const findWaldo=(name, last)=>{
+	if(!name['Waldo']){
+    return "Where's Waldo?"
+  }else{
+    return "unknown"
+  }
+  
+  
+  return name
+}
+// Uncomment these to check your work!
+const DC = {'Bruce': 'Wayne', 'Harley': 'Quinn'}
+const supernatural = {'Sam': 'Winchester', 'Dean': 'Winchester', 'Waldo': 'unknown'}
+console.log(findWaldo(DC)) // should log: 'Where's Waldo?'
+console.log(findWaldo(supernatural)) // should log: 'unknown'
