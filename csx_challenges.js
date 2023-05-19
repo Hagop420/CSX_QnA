@@ -341,3 +341,24 @@ function arrayBuilder(obj) {
 // Uncomment these to check your work!
 console.log(arrayBuilder({'cats': 2, 'dogs': 1})); // => ['cats', 'cats', 'dogs']
 console.log(arrayBuilder({})); // => []
+
+
+
+
+
+// improved version
+
+function arrayBuilder(obj) {
+  // ADD CODE HERE
+  let newArr=[]
+  for(ind of obj){
+    let keyInArr=obj[ind]
+    while(keyInArr>0){
+      	newArr.push(keyInArr)
+}
+  }
+}
+
+// Uncomment these to check your work!
+console.log(arrayBuilder({'cats': 2, 'dogs': 1})); // => ['cats', 'cats', 'dogs']
+console.log(arrayBuilder({})); // => []
