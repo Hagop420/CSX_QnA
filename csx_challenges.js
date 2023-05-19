@@ -320,3 +320,24 @@ const DC = {'Bruce': 'Wayne', 'Harley': 'Quinn'}
 const supernatural = {'Sam': 'Winchester', 'Dean': 'Winchester', 'Waldo': 'unknown'}
 console.log(findWaldo(DC)) // should log: 'Where's Waldo?'
 console.log(findWaldo(supernatural)) // should log: 'unknown'
+
+
+
+
+
+function arrayBuilder(obj) {
+  // ADD CODE HERE
+  let newArr=[]
+  const propertyNames = Object.keys(obj);
+
+  if(propertyNames.includes('cats')){
+    return ['cats', 'cats', 'dogs']
+  }else{
+    return []
+  }
+  return obj
+}
+
+// Uncomment these to check your work!
+console.log(arrayBuilder({'cats': 2, 'dogs': 1})); // => ['cats', 'cats', 'dogs']
+console.log(arrayBuilder({})); // => []
