@@ -366,3 +366,15 @@ console.log(arrayBuilder({})); // => []
 
 
 // make array strings be plural with a single s
+
+// ADD CODE HERE
+const pluralize=(arr)=>{
+  let arrNew=[]
+arr.map(function(pl) {
+  return arrNew.push(`${pl}s`);
+});
+  return arrNew
+}
+// Uncomment these to check your work!
+const animals = ["dog", "cat", "tree frog"];
+console.log(pluralize(animals)); // should log: ["dogs", "cats", "tree frogs"]
