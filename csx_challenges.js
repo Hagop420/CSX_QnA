@@ -391,17 +391,17 @@ console.log(pluralize(animals)); // should log: ["dogs", "cats", "tree frogs"]
 
 // ADD CODE HERE
 
-// const map=(num, cb)=>{
-//   let arr=[]
+const map=(num, cb)=>{
+  let arr=[]
   
-//    for (let x of num) {
-//     arr.push(cb(x))
-//   }
-//   return arr
-// }
+   for (let x of num) {
+    arr.push(cb(x))
+  }
+  return arr
+}
 
-// const subtractTwo=(n)=>n-2
-// // Uncomment these to check your work!
-// console.log(typeof subtractTwo); // should log: 'function'
-// console.log(typeof map); // should log: 'function'
-// console.log(map([3,4,5], subtractTwo)); // should log: [ 1, 2, 3 ]
+const subtractTwo=(n)=>n-2
+// Uncomment these to check your work!
+console.log(typeof subtractTwo); // should log: 'function'
+console.log(typeof map); // should log: 'function'
+console.log(map([3,4,5], subtractTwo)); // should log: [ 1, 2, 3 ]
