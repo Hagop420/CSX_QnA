@@ -532,11 +532,11 @@ console.log(filterArray(arrOfNums, func2)); // should log: [1, 3, 5]
 
 // this is getting hard
 
-function eitherCallback(callback1, callback2) {
-  return function(num) {
-    return callback1(num) || callback2(num);
-  };
-}
+// function eitherCallback(callback1, callback2) {
+//   return function(num) {
+//     return callback1(num) || callback2(num);
+//   };
+// }
 
 // Uncomment these to check your work!
 // function filterArray(array, callback) {
