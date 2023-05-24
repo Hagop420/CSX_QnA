@@ -428,3 +428,26 @@ console.log(map([3, 4, 5], subtractTwo)); // should log: [ 1, 2, 3 ]
 //   forEach(['a','b','c'], i => console.log(i)); // should log: 'a', 'b', 'c'
 //   console.log(typeof map); // should log: 'function'
 //   console.log(map([3,4,5], n => n - 2)); // should log: [1, 2, 3]
+
+
+
+// CSX complying code
+
+// const forEach = (arr, cb) => {
+//   for (let i = 0; i < arr.length; i += 1) {
+//     cb(arr[i]);
+//   }
+// };
+
+// const map = (arr, cb) => {
+//   const newArr = [];
+//   forEach(arr, i => {
+//     newArr.push(cb(i));
+//   });
+//   return newArr;
+// };
+
+// console.log(typeof forEach); // should log: 'function'
+// forEach(['a', 'b', 'c'], i => console.log(i)); // should log: 'a', 'b', 'c'
+// console.log(typeof map); // should log: 'function'
+// console.log(map([3, 4, 5], n => n - 2)); // should log: [1, 2, 3]
