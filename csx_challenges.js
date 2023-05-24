@@ -512,3 +512,17 @@ console.log(filterArray(arrOfNums, func2)); // should log: [1, 3, 5]
 // // Uncomment these to check your work!
 // console.log(filterArray(arrOfNums, func1)); // should log: [2, 4]
 // console.log(filterArray(arrOfNums, func2)); // should log: [1, 3, 5]
+
+
+
+
+// function eitherFilter(array, callback1, callback2) {
+//   const filteredArray = array.filter(num => callback1(num) || callback2(num));
+//   return filteredArray;
+// }
+
+// // Uncomment these to check your work!
+// const arrOfNums = [10, 35, 105, 9];
+// const integerSquareRoot = n => Math.sqrt(n) % 1 === 0;
+// const over100 = n => n > 100;
+// console.log(eitherFilter(arrOfNums, integerSquareRoot, over100)); // should log: [105, 9]
