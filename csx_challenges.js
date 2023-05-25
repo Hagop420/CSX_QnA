@@ -706,3 +706,33 @@ console.log(filterArray(arrOfNums, func2)); // should log: [1, 3, 5]
 // const tvShows = ['curb', 'rickandmorty', 'seinfeld', 'sunny', 'friends'];
 // console.log(prioritize(tvShows, startsWithS));
 // // Output: ['seinfeld', 'sunny', 'curb', 'rickandmorty', 'friends']
+
+
+
+// function countBy(arr, callback) {
+//   const result = {};
+
+//   for (let i = 0; i < arr.length; i++) {
+//     const key = callback(arr[i]);
+//     if (result[key]) {
+//       result[key]++;
+//     } else {
+//       result[key] = 1;
+//     }
+//   }
+
+//   return result;
+// }
+
+// function evenOdd(n) {
+//   if (n % 2 === 0) {
+//     return 'even';
+//   } else {
+//     return 'odd';
+//   }
+// }
+
+// const nums = [1, 2, 3, 4, 5];
+// console.log(countBy(nums, evenOdd));
+// // Output: { odd: 3, even: 2 }
+
