@@ -736,3 +736,27 @@ console.log(filterArray(arrOfNums, func2)); // should log: [1, 3, 5]
 // console.log(countBy(nums, evenOdd));
 // // Output: { odd: 3, even: 2 }
 
+
+
+// function groupBy(arr, callback) {
+//   const result = {};
+
+//   for (let i = 0; i < arr.length; i++) {
+//     const key = callback(arr[i]);
+//     if (result[key]) {
+//       result[key].push(arr[i]);
+//     } else {
+//       result[key] = [arr[i]];
+//     }
+//   }
+
+//   return result;
+// }
+
+// const decimals = [1.3, 2.1, 2.4];
+// const floored = function(num) {
+//   return Math.floor(num);
+// };
+// console.log(groupBy(decimals, floored));
+// // Output: { 1: [1.3], 2: [2.1, 2.4] }
+
