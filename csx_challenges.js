@@ -666,3 +666,25 @@ console.log(filterArray(arrOfNums, func2)); // should log: [1, 3, 5]
 // const functions = [uppercaser, capitalize, repeater];
 // console.log(multiMap(items, functions));
 // // Output: { catfood: ['CATFOOD', 'Catfood', 'catfoodcatfood'], glue: ['GLUE', 'Glue', 'glueglue'], beer: ['BEER', 'Beer', 'beerbeer'] }
+
+
+
+
+// function majority(arr, callback) {
+//   let count = 0;
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (callback(arr[i])) {
+//       count++;
+//     }
+//   }
+
+//   return count > arr.length / 2;
+// }
+
+// const isOdd = function(num) {
+//   return num % 2 === 1;
+// };
+
+// console.log(majority([1, 2, 3, 4, 5], isOdd)); // Output: true
+// console.log(majority([2, 3, 4, 5], isOdd)); // Output: false
