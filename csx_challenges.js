@@ -629,3 +629,40 @@ console.log(filterArray(arrOfNums, func2)); // should log: [1, 3, 5]
 // const capitalize = str => str.toUpperCase();
 // console.log(arrToObj(arrOfStrings, capitalize));
 // // Output: { beer: 'BEER', glue: 'GLUE' }
+
+
+
+// function multiMap(items, functions) {
+//   const result = {};
+  
+//   for (let i = 0; i < items.length; i++) {
+//     const key = items[i];
+//     const values = [];
+    
+//     for (let j = 0; j < functions.length; j++) {
+//       const value = functions[j](key);
+//       values.push(value);
+//     }
+    
+//     result[key] = values;
+//   }
+  
+//   return result;
+// }
+
+// function uppercaser(str) {
+//   return str.toUpperCase();
+// }
+
+// function capitalize(str) {
+//   return str[0].toUpperCase() + str.slice(1).toLowerCase();
+// }
+
+// function repeater(str) {
+//   return str + str;
+// }
+
+// const items = ['catfood', 'glue', 'beer'];
+// const functions = [uppercaser, capitalize, repeater];
+// console.log(multiMap(items, functions));
+// // Output: { catfood: ['CATFOOD', 'Catfood', 'catfoodcatfood'], glue: ['GLUE', 'Glue', 'glueglue'], beer: ['BEER', 'Beer', 'beerbeer'] }
