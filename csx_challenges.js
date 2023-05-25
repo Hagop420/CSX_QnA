@@ -553,3 +553,29 @@ console.log(filterArray(arrOfNums, func2)); // should log: [1, 3, 5]
 
 // const intSqRtOrOver100 = eitherCallback(integerSquareRoot, over100);
 // console.log(filterArray(arrOfNums, intSqRtOrOver100)); // should log: [105, 9]
+
+
+
+// ok this is getting impossible
+
+
+
+// const intersection = (arr) => {
+//   const result = arr.reduce((accumulator, currentValue) => {
+//     if (accumulator.length === 0) {
+//       accumulator = currentValue.slice(); // Make a copy of the first array
+//     } else {
+//       // Filter out elements that are not present in all arrays
+//       accumulator = accumulator.filter((element) => currentValue.includes(element));
+//     }
+//     return accumulator;
+//   }, []);
+
+//   return result;
+// };
+
+// // Uncomment these to check your work!
+// const arr1 = [5, 10, 15, 20];
+// const arr2 = [15, 88, 1, 5, 7];
+// const arr3 = [1, 10, 15, 5, 20];
+// console.log(intersection([arr1, arr2, arr3])); // Output: [5, 15]
