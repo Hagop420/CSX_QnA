@@ -579,3 +579,29 @@ console.log(filterArray(arrOfNums, func2)); // should log: [1, 3, 5]
 // const arr2 = [15, 88, 1, 5, 7];
 // const arr3 = [1, 10, 15, 5, 20];
 // console.log(intersection([arr1, arr2, arr3])); // Output: [5, 15]
+
+
+
+// function objOfMatches(arr1, arr2, callback) {
+//   const result = {};
+  
+//   for (let i = 0; i < arr1.length; i++) {
+//     const key = arr1[i];
+//     const value = arr2[i];
+    
+//     if (callback(key) === value) {
+//       result[key] = value;
+//     }
+//   }
+  
+//   return result;
+// }
+
+// const arr1 = ['hi', 'howdy', 'bye', 'later', 'hello'];
+// const arr2 = ['HI', 'Howdy', 'BYE', 'later', 'HELLO'];
+
+// function uppercaser(str) {
+//   return str.toUpperCase();
+// }
+
+// console.log(objOfMatches(arr1, arr2, uppercaser)); // Output: { hi: 'HI', bye: 'BYE', hello: 'HELLO' }
