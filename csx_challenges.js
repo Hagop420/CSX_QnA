@@ -688,3 +688,21 @@ console.log(filterArray(arrOfNums, func2)); // should log: [1, 3, 5]
 
 // console.log(majority([1, 2, 3, 4, 5], isOdd)); // Output: true
 // console.log(majority([2, 3, 4, 5], isOdd)); // Output: false
+
+
+
+
+
+// function prioritize(arr, callback) {
+//   const startsWithS = arr.filter(callback);
+//   const doesNotStartWithS = arr.filter(item => !callback(item));
+//   return startsWithS.concat(doesNotStartWithS);
+// }
+
+// function startsWithS(str) {
+//   return str[0].toLowerCase() === 's';
+// }
+
+// const tvShows = ['curb', 'rickandmorty', 'seinfeld', 'sunny', 'friends'];
+// console.log(prioritize(tvShows, startsWithS));
+// // Output: ['seinfeld', 'sunny', 'curb', 'rickandmorty', 'friends']
