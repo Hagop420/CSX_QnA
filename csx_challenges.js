@@ -605,3 +605,27 @@ console.log(filterArray(arrOfNums, func2)); // should log: [1, 3, 5]
 // }
 
 // console.log(objOfMatches(arr1, arr2, uppercaser)); // Output: { hi: 'HI', bye: 'BYE', hello: 'HELLO' }
+
+
+
+
+// more 0bjects
+
+
+// function arrToObj(array, callback) {
+//   const result = {};
+  
+//   for (let i = 0; i < array.length; i++) {
+//     const key = array[i];
+//     const value = callback(key);
+    
+//     result[key] = value;
+//   }
+  
+//   return result;
+// }
+
+// const arrOfStrings = ['beer', 'glue'];
+// const capitalize = str => str.toUpperCase();
+// console.log(arrToObj(arrOfStrings, capitalize));
+// // Output: { beer: 'BEER', glue: 'GLUE' }
