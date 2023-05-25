@@ -760,3 +760,33 @@ console.log(filterArray(arrOfNums, func2)); // should log: [1, 3, 5]
 // console.log(groupBy(decimals, floored));
 // // Output: { 1: [1.3], 2: [2.1, 2.4] }
 
+
+
+
+// function goodKeys(obj, callback) {
+//   const keys = Object.keys(obj);
+//   const result = [];
+
+//   for (let i = 0; i < keys.length; i++) {
+//     if (callback(obj[keys[i]])) {
+//       result.push(keys[i]);
+//     }
+//   }
+
+//   return result;
+// }
+
+// const sunny = {
+//   mac: 'priest',
+//   dennis: 'calculator',
+//   charlie: 'birdlaw',
+//   dee: 'bird',
+//   frank: 'warthog',
+// };
+
+// function startsWithBird(str) {
+//   return str.slice(0, 4).toLowerCase() === 'bird';
+// }
+
+// console.log(goodKeys(sunny, startsWithBird));
+// // Output: ['charlie', 'dee']
