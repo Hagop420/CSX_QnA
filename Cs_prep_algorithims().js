@@ -425,4 +425,20 @@ function product(arr, i = 0) {
  // console.log(balancedParens(')(')); // -> false
  // console.log(balancedParens('(()(()))')); // -> true
  // console.log(balancedParens('((()')); // -> false
+
  
+
+
+
+
+ // require stack 
+// var express = require('express');  
+// var app = express();  
+// app.get('/', function (req, res) {  
+//   res.send('Welcome to JavaTpoint!');  
+// });  
+// var server = app.listen(8000, function () {  
+//   var host = server.address();  
+//   var port = server.address()
+//   console.log('Example app listening at http://%s:%s', host, port);  
+// });  
