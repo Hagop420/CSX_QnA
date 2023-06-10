@@ -431,7 +431,7 @@ function product(arr, i = 0) {
 
 
 
- // require stack 
+// require stack 
 // var express = require('express');  
 // var app = express();  
 // app.get('/', function (req, res) {  
@@ -442,3 +442,33 @@ function product(arr, i = 0) {
 //   var port = server.address()
 //   console.log('Example app listening at http://%s:%s', host, port);  
 // });  
+
+
+
+
+
+// cs_callbacks
+
+
+
+// function once(callback) {
+//   let hasBeenRun = false;
+//   let firstReturnedValue;
+//   return (...callbackArgs) => {
+//     if (!hasBeenRun) {
+//       firstReturnedValue = callback(...callbackArgs);
+//       hasBeenRun = true;
+//     }
+//     return firstReturnedValue;
+//   };
+// }
+
+// const multiplyBy3 = num => num * 3;
+
+// const multiplyByThreeOnce = once(multiplyBy3);
+
+// const firstRun = multiplyByThreeOnce(10);
+// const secondRun = multiplyByThreeOnce(8);
+// const thirdRun = multiplyByThreeOnce(150);
+
+// console.log(firstRun, secondRun, thirdRun);
