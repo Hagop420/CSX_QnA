@@ -60,3 +60,18 @@
 // console.log(age);
 // console.log(in10Yrs);
 //             console.log(`In 10 years i will be ${in10Yrs} years old`)
+
+
+// 6)// ADD CODE BELOW
+// const twentyTimesFour=20*4
+// const nineOverThree=9/3
+// const twoHundredTimesThree=200.3*3
+
+
+// // Uncomment these to check your work!
+// console.log(twentyTimesFour);
+// console.log(nineOverThree);
+// console.log(twoHundredTimesThree);
+
+// console.log(`20 x 4 = ${twentyTimesFour},
+// 9 / 3 = ${nineOverThree}, and 200.3 * 3 = ${twoHundredTimesThree}`)
