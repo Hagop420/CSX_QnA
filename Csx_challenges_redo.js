@@ -75,3 +75,16 @@
 
 // console.log(`20 x 4 = ${twentyTimesFour},
 // 9 / 3 = ${nineOverThree}, and 200.3 * 3 = ${twoHundredTimesThree}`)
+
+
+// 7)const fiveSquared=5**2
+// const eightCubed=8**3
+// const sevenToTheSixth=7**6
+// const eightyThreeModSix=83%6
+// const sixtyModNine=60%9
+
+// console.log("The product of fiveSquared is:", fiveSquared);
+// console.log("The product of eightCubed is:", eightCubed);
+// console.log("The product of sevenToTheSixth is:", sevenToTheSixth);
+// console.log("The product of eightyThreeModSix is:", eightyThreeModSix);
+// console.log("The product of sixtyModNine is:", sixtyModNine);
