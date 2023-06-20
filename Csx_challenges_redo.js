@@ -161,3 +161,10 @@
 // console.log(isStrictlyEqual);
 // console.log('Is true not equal to false?');
 // console.log(isTrueNotFalse);
+
+
+// 12)Type coersion
+// // Uncomment the code below to test
+// console.log(10 + 5);
+// console.log("10" + 5);
+// console.log(5 + "10");
