@@ -88,3 +88,13 @@
 // console.log("The product of sevenToTheSixth is:", sevenToTheSixth);
 // console.log("The product of eightyThreeModSix is:", eightyThreeModSix);
 // console.log("The product of sixtyModNine is:", sixtyModNine);
+
+// 8)let num1 = 32;
+// let num2 = 44;
+
+// // ADD CODE BELOW HERE
+
+// num1++
+// num2--
+// console.log(`32 incremented is ${num1}`)
+// console.log(`44 decremented is ${num2}`)
