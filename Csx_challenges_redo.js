@@ -98,3 +98,20 @@
 // num2--
 // console.log(`32 incremented is ${num1}`)
 // console.log(`44 decremented is ${num2}`)
+
+
+// 9)let num1 = 32;
+// let num2 = 25;
+// let num3 = 92;
+// let num4 = 64;
+
+// // ADD CODE BELOW HERE
+// num1+=17
+// num2-=14
+// num3*=11
+// num4/=8
+
+// console.log(`The value of num1 is: ${num1}`);
+// console.log(`The value of num2 is: ${num2}`);
+// console.log(`The value of num3 is: ${num3}`);
+// console.log(`The value of num4 is: ${num4}`);
