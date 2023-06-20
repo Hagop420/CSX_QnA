@@ -1,3 +1,5 @@
+
+         // precourse part 1
 // 1)template strings
 // const first = "Welcome";
 // const second = "to the";
