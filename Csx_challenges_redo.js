@@ -115,3 +115,14 @@
 // console.log(`The value of num2 is: ${num2}`);
 // console.log(`The value of num3 is: ${num3}`);
 // console.log(`The value of num4 is: ${num4}`);
+
+
+// 10)let iHaveChanged = false;
+
+// ADD CODE BELOW
+// iHaveChanged=true
+// const iLoveCoding=iHaveChanged
+// const codingIsTooHard=false
+
+// console.log(`I love coding: ${iLoveCoding},
+// Coding is extremely hard: ${codingIsTooHard}`)
