@@ -49,3 +49,14 @@
 // console.log(firstLetter);
 // console.log(seventhCharacter);
 // console.log(lastLetter);
+
+// 5)// ADD CODE BELOW
+// const birthYear=2001
+// const age=22
+// const in10Yrs=age+10
+      
+// // Uncomment these to check your work!
+// console.log(birthYear);
+// console.log(age);
+// console.log(in10Yrs);
+//             console.log(`In 10 years i will be ${in10Yrs} years old`)
