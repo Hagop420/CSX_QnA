@@ -185,3 +185,12 @@
 // console.log(typeof timesSeen)
 // console.log(typeof goingToWatchItAgain)
 
+
+// 14)const horror = ['Freddy', 'Jason', 'Michael', 'Ghostface', 'Chucky'];
+
+// ADD CODE HERE
+
+// const fourthItem=horror[3]
+
+// console.log(`${horror.join(', ')} array gave me the ${fourthItem}`)
+// // Write a console.log statement below to check your work!
