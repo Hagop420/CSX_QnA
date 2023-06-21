@@ -220,7 +220,7 @@
 
 
 // 17)const synonyms = ['fantastic', 'wonderful', 'great'];
-const greetings = [];
+// const greetings = [];
 
 
 
