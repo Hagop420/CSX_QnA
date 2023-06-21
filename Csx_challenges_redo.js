@@ -217,3 +217,21 @@
 //  }
 //  // Uncomment the below line to check your work
 //  console.log(countDown) // -> should print 0;
+
+
+// 17)const synonyms = ['fantastic', 'wonderful', 'great'];
+const greetings = [];
+
+
+
+
+// 1.
+// Loop through the synonyms array. Each time, push a string into the greetings array. 
+// The string should have the format 'Have a [synonym] day!'
+// ADD CODE HERE
+
+// for(let i=0; i<synonyms.length; i+=1){
+//   greetings.push(`Have a ${synonyms[i]} day!`)
+// }
+// console.log(`greetings array changed woth following for loop and now contains the info from the synonyms array
+// , so now the greetings array has ${greetings.join(', ')} info inside it`)
