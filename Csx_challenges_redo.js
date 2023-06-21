@@ -232,3 +232,27 @@
 // }
 // console.log(`greetings array changed woth following for loop and now contains the info from the synonyms array
 // , so now the greetings array has ${greetings.join(', ')} info inside it`)
+
+
+// 18)const firstNames = ["Jon", "Arya", "Jamie"];
+// const lastNames = ["Snow", "Stark", "Lannister"];
+// const places = ["The Wall", "Winterfell", "Kings Landing"];
+
+
+// const bios = [];
+
+// // Loop through your arrays and store the following strings in the bios array:
+// // 'My name is Jon Snow and I am from The Wall'
+// // 'My name is Arya Stark and I am from Winterfell'
+// // 'My name is Jamie Lannister and I am from Kings Landing'
+
+// // ADD CODE HERE
+
+// for(let i=0; i<firstNames.length; i+=1){
+// 	const fullNames=`${firstNames[i]} ${lastNames[i]} and I am from ${places[i]}`
+  
+//   bios.push(`My name is ${fullNames}`)
+// }
+
+
+// console.log(bios)
