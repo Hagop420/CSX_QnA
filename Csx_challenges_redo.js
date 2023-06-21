@@ -223,9 +223,6 @@
 // const greetings = [];
 
 
-
-
-// 1.
 // Loop through the synonyms array. Each time, push a string into the greetings array. 
 // The string should have the format 'Have a [synonym] day!'
 // ADD CODE HERE
@@ -235,4 +232,3 @@
 // }
 // console.log(`greetings array changed woth following for loop and now contains the info from the synonyms array
 // , so now the greetings array has ${greetings.join(', ')} info inside it`)
-// 
