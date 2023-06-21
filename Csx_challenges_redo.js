@@ -204,3 +204,16 @@
 
 // console.log(netflixShows)
 // // Write a console.log statement below to check your work!
+
+// 16)let countDown = 10;
+// ADD CODE HERE
+
+// for (let i = countDown; i >=0; i--) {
+//    console.log(i)
+   
+//    if(i===0){
+//      countDown=0
+//    }
+//  }
+//  // Uncomment the below line to check your work
+//  console.log(countDown) // -> should print 0;
