@@ -235,3 +235,4 @@
 // }
 // console.log(`greetings array changed woth following for loop and now contains the info from the synonyms array
 // , so now the greetings array has ${greetings.join(', ')} info inside it`)
+// 
