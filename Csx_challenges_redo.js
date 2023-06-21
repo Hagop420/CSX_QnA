@@ -168,3 +168,20 @@
 // console.log(10 + 5);
 // console.log("10" + 5);
 // console.log(5 + "10");
+
+
+
+// 13)const favMovie = "Star Wars: Episod IV";
+// const timesSeen = 732;
+// const goingToWatchItAgain = true; 
+
+
+// const favMovieType=typeof favMovie
+// const timesSeenType=typeof timesSeen
+// const seeAgainType=typeof goingToWatchItAgain
+
+// // ADD CODE BELOW HERE
+// console.log(typeof favMovie)
+// console.log(typeof timesSeen)
+// console.log(typeof goingToWatchItAgain)
+
