@@ -409,3 +409,15 @@
 //  }
  
 //  console.log(nestedArr)
+
+// 28)const possibleIterable = [4, 3, 9, 6, 23];
+// let divByThree = {};
+// // ADD CODE HERE
+// for(let i=0; i<possibleIterable.length; i+=1){
+//   	if(possibleIterable[i]%3===0){
+//       divbyThree={ '3': 1, '6': 3, '9': 2 }
+//     }
+  
+// }	
+
+// console.log(divByThree)
