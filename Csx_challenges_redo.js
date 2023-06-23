@@ -267,3 +267,14 @@
 // for(let i=0; i<increaseByTwo.length; i+=1){
 //    increaseByTwo[i]=increaseByTwo[i]+2
 //    }
+
+
+// 20)let count = 2;
+// ADD CODE HERE
+
+// while(count<8){
+//    console.log(count)
+//    count++
+//  }
+//  // Uncomment these to check your work!
+//  console.log(count); 
