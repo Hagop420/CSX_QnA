@@ -296,7 +296,7 @@
 
 
 // 22)const num = 40;
-let final;
+// let final;
 // ADD CODE HERE
 
 
