@@ -423,3 +423,23 @@
 // }	
 
 // console.log(divByThree)
+
+
+// 29)// const sumMe = {
+//   hello: 'there',
+//   you: 8,
+//   are: 7,
+//   almost: '10',
+//   done: '!'
+// };
+// let total = 0;
+// // ADD CODE HERE
+
+// for(let sum in sumMe){
+//   if(typeof sumMe[sum]==='number'){
+//     total= sumMe[sum] += sumMe[sum]+1
+     
+//   }
+// }
+
+// console.log(total)
