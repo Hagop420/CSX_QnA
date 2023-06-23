@@ -341,3 +341,23 @@
  
 //  // Uncomment the line below to check your work!
 //  console.log(timesTenIfOverFive); // -> should print [230, 90, 110, 2, 100, 60]
+
+// 23const checkObj = {
+//   oddNum: 1,
+//   evenNum: 2,
+//   foundNum: 5,
+//   randomNum: 18
+// };
+
+// let found = 0;
+// // ADD CODE HERE
+
+// for(let inLoop in checkObj){
+//   if(inLoop.includes('foundNum')){
+//     // checkObj.foundNum=1
+//     checkObj['foundNum']=1
+//     found=1
+//   }
+// }
+
+// console.log(checkObj)
