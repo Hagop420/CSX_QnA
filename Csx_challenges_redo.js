@@ -291,4 +291,4 @@
 
 // // Uncomment the line below to check your work!
 // console.log(sum);
-// 
+// should give 45
