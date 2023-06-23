@@ -400,3 +400,12 @@
 //   }
 // }
 // console.log(divBy6)
+
+// 27)const nestedArr = [];
+// // ADD CODE HERE
+// // console.log(nestedArr)
+// for(let i=0; i<5; i+=1){
+//    nestedArr.push(['loop'.concat(i), i])
+//  }
+ 
+//  console.log(nestedArr)
