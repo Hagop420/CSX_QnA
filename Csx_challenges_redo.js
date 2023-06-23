@@ -309,3 +309,24 @@
 //     final=num+40
 // }
 // 80
+
+
+
+// 21)const fb = [];
+// ADD CODE HERE
+// console.log(fb)
+// for(let i=1; i<=16; i+=1){
+//   if(i%3===0 && i%5===0){
+//     fb.push('fizzbuzz')
+//     continue;
+//   } else if(i%5===0){
+//     fb.push('buzz');
+//     continue;
+//   } else if(i%3===0){
+//     fb.push('fizz');
+//     continue;
+//   }
+// fb.push(i)
+// }
+
+// console.log(fb)
