@@ -380,3 +380,23 @@
 // }
 
 // console.log(objToArray)
+
+
+
+// 25)const checkObj = {
+//   oddNum: 1,
+//   evenNum: 2,
+//   foundNum: 5,
+//   randomNum: 18
+// };
+
+
+// let divBy6 = false;
+// // ADD CODE HERE
+// const objToArray=Object.values(checkObj)
+// for(let i=0; i<objToArray.length; i+=1){
+//   if(objToArray[i]%6===0){
+//     divBy6=true
+//   }
+// }
+// console.log(divBy6)
