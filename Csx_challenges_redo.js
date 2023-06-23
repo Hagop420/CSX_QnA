@@ -292,3 +292,19 @@
 // // Uncomment the line below to check your work!
 // console.log(sum);
 // should give 45
+
+
+
+// 22)const num = 40;
+let final;
+// ADD CODE HERE
+
+
+// Log final to the console below to check your work
+// if(num>100){
+//     final=null
+
+// }
+// else{
+//     final=num+40
+// }
