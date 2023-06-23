@@ -417,7 +417,7 @@
 //   	if(possibleIterable[i]%3===0){
 //       const curr=possibleIterable[i]
 
-// possibleIterable[curr]=i
+// divByThree[curr]=i
 //     }
   
 // }	
