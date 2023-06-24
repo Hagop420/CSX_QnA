@@ -517,3 +517,30 @@
 // // Uncomment these to check your work!
 // console.log(one); // should log: true
 // console.log(two); // should log: true
+
+// 36let calls = "";
+
+// function jerry(str) {
+// 	str+='Jerry'+kramer()
+//   return str
+// }
+
+// function george(str='George') {
+//    str+=elaine()
+//    return str
+// }
+
+// function elaine(str) {
+//    // str+=elaine()
+//    return 'elaine'.charAt(0).toUpperCase().concat('laine')
+// }
+
+// function kramer(str='Kramer') {
+// 	str+=george()
+//   return str
+// }
+
+
+// // Uncomment these to check your work!
+// calls = jerry(calls);
+// console.log(calls); // should log: 'JerryKramerGeorgeElaine'
