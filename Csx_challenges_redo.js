@@ -544,3 +544,41 @@
 // // Uncomment these to check your work!
 // calls = jerry(calls);
 // console.log(calls); // should log: 'JerryKramerGeorgeElaine'
+
+
+// 36)
+let friendsAvailable = true;
+// 				name=mary
+function makePlans(name) {
+   // friendsAvailable=callFriend()
+    name=name
+  return callFriend()
+}
+                     // bool=true
+function callFriend(bool, name='Mary') {
+//   no ths returns maximum call stack exceeded
+  
+  // name=callFriend()
+  // INSERT CODE HERE
+   bool = true
+ if(friendsAvailable){
+   return `Plans made with ${name} this weekend`
+ }else{
+    return `Everyone is busy this weekend.`
+ }
+}
+
+// Uncomment these to check your work!
+console.log(makePlans("Mary")) // should return: "Plans made with Mary this weekend'
+friendsAvailable = false;
+console.log(makePlans("James")) //should return: "Everyone is busy this weekend."
+
+ 
+// 37)Printing the function log not executing it
+
+// function add20(num) {
+//   return num + 20
+// }
+
+// // CREATE YOUR CONSOLE.LOG BELOW 
+// console.log(add20)
