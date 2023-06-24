@@ -441,6 +441,7 @@
      
 //   }
 // }
+// console.log(total)
 
 
 
@@ -452,5 +453,3 @@
 
 
 
-
-// console.log(total)
