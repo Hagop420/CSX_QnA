@@ -710,6 +710,8 @@
 
 
 
+// Same function problem using forEach method instead of for loop
+
 // 44)function droids(arr) {
 //   let result = '';
 //   // ADD CODE HERE
