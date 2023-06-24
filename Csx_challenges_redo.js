@@ -733,3 +733,23 @@
 // const thrones = ["Jon", "Danny", "Tyrion", "The Mountain", "Cersei"] 
 // console.log(droids(starWars)) // should log: "Found Droids!"
 // console.log(droids(thrones)) // should log: "These are not the droids you're looking for."
+
+
+// 45)function holidays(arr) {
+  // Do not use a variable to store your result 
+  // ADD CODE HERE
+  
+//   for(let i=0; i<arr.length; i+=1){
+//    if(arr.includes('October')){
+//      return `Happy Halloween`
+//    }else{
+//      return 'Have a great day!'
+//    }
+//  }
+// }
+
+// // Uncomment these to check your work!
+// const months = ["April", "May", "June", "October"];
+// const animals = ["Cats", "Dogs", "Pigs"];
+// console.log(holidays(months)); // should return: "Happy Halloween"
+// console.log(holidays(animals)); // should return: "Have a great day!"
