@@ -442,4 +442,15 @@
 //   }
 // }
 
+
+
+
+
+
+// more practice with functions
+
+
+
+
+
 // console.log(total)
