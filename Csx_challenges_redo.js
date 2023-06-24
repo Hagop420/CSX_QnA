@@ -582,3 +582,24 @@ console.log(makePlans("James")) //should return: "Everyone is busy this weekend.
 
 // // CREATE YOUR CONSOLE.LOG BELOW 
 // console.log(add20)
+
+
+
+// hoisted function
+
+// 38)// ADD CODE HERE
+
+// Uncomment these to check your work!
+// console.log(isOdd(5)); // should log: true
+// console.log(isOdd(2008)); // should log: false
+
+// function isOdd(num){
+//  if(num % 2 !== 0) {
+//     return true
+// }
+
+// // if the number is odd
+// else {
+//     return false
+// }
+// }
