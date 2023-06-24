@@ -489,3 +489,13 @@
 // console.log(wereAwesome("Victoria", "Jenny")); // => "Jenny and Victoria are awesome!"
 // console.log(wereAwesome("Chris", "Jac")); // => "Jac and Chris are awesome!"
 // console.log(wereAwesome("Phillip", "Skyler")); // => "Skyler and Phillip are awesome!"
+
+// 34)function lastLetter(word) {
+//   return word.charAt(word.length -1)
+// }
+
+// // Uncomment the lines below to test your code
+// console.log(lastLetter("hello")); //=> "o"
+// console.log(lastLetter("goodbye!")); //=> "!"
+// console.log(lastLetter("ZeltoiD")); //=> "D"
+// console.log(lastLetter("I love Javascript")); //=> "t"
