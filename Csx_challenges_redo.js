@@ -655,26 +655,33 @@
 // console.log(greetings(18)); // expected log 'Good Night!'
 
 
-// 42)
+// 42)function gradeCalculator(grade) {
+  // ADD CODE HERE
+//   if(grade>=90){
+//    return 'A'
+//  }else if(grade>=80 && grade<90){
+//    return 'B'
+//  }else if(grade>=70 && grade<=80){
+//    return 'C'
+//  }else if(grade>=60 && grade<=70){
+//    return 'D'
+//  }else if(grade<=59){
+//    return 'F'
+//  }
+// }
 
-function gradeCalculator(grade) {
-   // ADD CODE HERE
-   if(grade>=90){
-     return 'ABCDF'.charAt('ABCDF'.length -1)
-   }else if(grade>=80 || grade<=89){
-     return 'ABCDF'.charAt('ABCDF'.length -2)
-   }else if(grade>=70 || grade<=79){
-     return 'ABCDF'.charAt('ABCDF'.length -3)
-   }else if(grade>=60 || grade<=69){
-     return 'ABCDF'.charAt('ABCDF'.length -4)
-   }else if(grade<=59){
-     return 'F'
-   }
- }
- 
- // Uncomment the lines below to test your code
- console.log(gradeCalculator(92)); // => "A"
- console.log(gradeCalculator(84)); // => "B"
- console.log(gradeCalculator(70)); // => "C"
- console.log(gradeCalculator(61)); // => "D"
- console.log(gradeCalculator(43)); // => "F"
+// // Uncomment the lines below to test your code
+// console.log(gradeCalculator(92)); // => "A"
+// console.log(gradeCalculator(84)); // => "B"
+
+
+
+   
+// console.log(gradeCalculator(70)); // => "C"
+
+
+// console.log(gradeCalculator(61)); // => "D"
+
+
+
+// console.log(gradeCalculator(43)); // => "F"
