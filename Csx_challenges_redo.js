@@ -467,5 +467,14 @@
 //  // Uncomment these to check your work!
 //  console.log(typeof addS); // should log: 'function'
 //  console.log(addS('cat')); // should log: 'cats'
+
+
+// 32)// ADD CODE HERE
+// const sayHello=(hal)=>{
+//    return 'Hi, '+hal
+//  }
+//  // Uncomment these to check your work!
+//  console.log(sayHello('Mary')); // should log: 'Hi, Mary'
+//  console.log(sayHello('Haley')); // should log: 'Hi, Haley'
  
 
