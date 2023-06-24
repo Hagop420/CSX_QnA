@@ -459,3 +459,13 @@
 //  console.log(typeof addTwo); // should log: 'function'
 //  console.log(addTwo(10)); // should log: 12
 
+
+// 31)// ADD CODE HERE
+// const addS=(str)=>{
+//    return str.concat('s')
+//  }
+//  // Uncomment these to check your work!
+//  console.log(typeof addS); // should log: 'function'
+//  console.log(addS('cat')); // should log: 'cats'
+ 
+
