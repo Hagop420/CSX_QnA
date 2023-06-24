@@ -547,67 +547,67 @@
 
 
 // 36)
-let friendsAvailable = true;
-// 				name=mary
-function makePlans(name) {
-   // friendsAvailable=callFriend()
-    name=name
-  return callFriend()
-}
-                     // bool=true
-function callFriend(bool, name='Mary') {
-//   no ths returns maximum call stack exceeded
+// let friendsAvailable = true;
+// // 				name=mary
+// function makePlans(name) {
+//    // friendsAvailable=callFriend()
+//     name=name
+//   return callFriend()
+// }
+//                      // bool=true
+// function callFriend(bool, name='Mary') {
+// //   no ths returns maximum call stack exceeded
   
-  // name=callFriend()
-  // INSERT CODE HERE
-   bool = true
- if(friendsAvailable){
-   return `Plans made with ${name} this weekend`
- }else{
-    return `Everyone is busy this weekend.`
- }
-}
+//   // name=callFriend()
+//   // INSERT CODE HERE
+//    bool = true
+//  if(friendsAvailable){
+//    return `Plans made with ${name} this weekend`
+//  }else{
+//     return `Everyone is busy this weekend.`
+//  }
+// }
 
-// Uncomment these to check your work!
-console.log(makePlans("Mary")) // should return: "Plans made with Mary this weekend'
-friendsAvailable = false;
-console.log(makePlans("James")) //should return: "Everyone is busy this weekend."
+// // Uncomment these to check your work!
+// console.log(makePlans("Mary")) // should return: "Plans made with Mary this weekend'
+// friendsAvailable = false;
+// console.log(makePlans("James")) //should return: "Everyone is busy this weekend."
 
  
-// 37)Printing the function log not executing it
+// // 37)Printing the function log not executing it
 
-// function add20(num) {
-//   return num + 20
-// }
+// // function add20(num) {
+// //   return num + 20
+// // }
 
-// // CREATE YOUR CONSOLE.LOG BELOW 
-// console.log(add20)
+// // // CREATE YOUR CONSOLE.LOG BELOW 
+// // console.log(add20)
 
 
 
-// hoisted function
+// // hoisted function
 
-// 38)// ADD CODE HERE
+// // 38)// ADD CODE HERE
 
-// Uncomment these to check your work!
-// console.log(isOdd(5)); // should log: true
-// console.log(isOdd(2008)); // should log: false
+// // Uncomment these to check your work!
+// // console.log(isOdd(5)); // should log: true
+// // console.log(isOdd(2008)); // should log: false
 
-// function isOdd(num){
-//  if(num % 2 !== 0) {
-//     return true
-// }
+// // function isOdd(num){
+// //  if(num % 2 !== 0) {
+// //     return true
+// // }
 
-// // if the number is odd
-// else {
-//     return false
-// }
-// }
+// // // if the number is odd
+// // else {
+// //     return false
+// // }
+// // }
 
-// 39)// ADD CODE HERE
+// // 39)// ADD CODE HERE
 
-// Uncomment these to check your work!
-// console.log(iLoveEvenNumbers(42)); // expected log 'Oh Yeah Evens!'
+// // Uncomment these to check your work!
+// // console.log(iLoveEvenNumbers(42)); // expected log 'Oh Yeah Evens!'
 // console.log(iLoveEvenNumbers(17)); // expected log 'I am too normal for odd numbers'
 
 
@@ -653,3 +653,28 @@ console.log(makePlans("James")) //should return: "Everyone is busy this weekend.
 // console.log(greetings(14)); // expected log 'Good Afternoon!'
 // console.log(greetings(15)); // expected log 'Good Night!'
 // console.log(greetings(18)); // expected log 'Good Night!'
+
+
+// 42)
+
+function gradeCalculator(grade) {
+   // ADD CODE HERE
+   if(grade>=90){
+     return 'ABCDF'.charAt('ABCDF'.length -1)
+   }else if(grade>=80 || grade<=89){
+     return 'ABCDF'.charAt('ABCDF'.length -2)
+   }else if(grade>=70 || grade<=79){
+     return 'ABCDF'.charAt('ABCDF'.length -3)
+   }else if(grade>=60 || grade<=69){
+     return 'ABCDF'.charAt('ABCDF'.length -4)
+   }else if(grade<=59){
+     return 'F'
+   }
+ }
+ 
+ // Uncomment the lines below to test your code
+ console.log(gradeCalculator(92)); // => "A"
+ console.log(gradeCalculator(84)); // => "B"
+ console.log(gradeCalculator(70)); // => "C"
+ console.log(gradeCalculator(61)); // => "D"
+ console.log(gradeCalculator(43)); // => "F"
