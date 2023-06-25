@@ -766,3 +766,17 @@
 // // Uncomment these to check your work!
 // console.log(addN([1, 2, 3], 3)); // expected log [4, 5, 6]
 // console.log(addN([3, 4, 5], 2)); // expected log [5, 6, 7]
+
+
+// 47)function getTheSum(arr){
+  // ADD CODE HERE
+//   let sumAdd=0;
+//   for(let i=0; i<arr.length; i+=1){
+//     sumAdd=sumAdd += arr[i];
+//   }
+//   return sumAdd
+// }
+
+// // Uncomment these to check your work!
+// console.log(getTheSum([3, 6, 9])); // expected log 18
+// console.log(getTheSum([10, 11, 12])); // expected log 33
