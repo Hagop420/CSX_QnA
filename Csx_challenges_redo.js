@@ -780,3 +780,15 @@
 // // Uncomment these to check your work!
 // console.log(getTheSum([3, 6, 9])); // expected log 18
 // console.log(getTheSum([10, 11, 12])); // expected log 33
+
+// 49)// ADD CODE HERE 
+// const multiplyAll=(num)=>{
+//    let time=0;
+//    for(let i=0; i<num.length; i+=1){
+//     time=time*=num[i]
+//    }
+//    return time
+//  }
+//  // Uncomment these to check your work!
+//  console.log(multiplyAll(9, 4, 5, 6, 7, 2, 1, 8, 3)) // should log: 362880
+//  console.log(multiplyAll(5, 5, 5, 3)) // should log: 375
