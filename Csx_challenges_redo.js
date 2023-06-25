@@ -782,15 +782,45 @@
 // console.log(getTheSum([10, 11, 12])); // expected log 33
 
 // 49)// ADD CODE HERE 
-function multiplyAll(...arg) {
-   return arg.reduce((acc, cur) => {
-      return acc*=cur
-   })
+// function multiplyAll(...arg) {
+//    return arg.reduce((acc, cur) => {
+//       return acc*=cur
+//    })
 
- }
+//  }
+//  // Uncomment these to check your work!
+//  console.log(multiplyAll(9, 4, 5, 6, 7, 2, 1, 8, 3)) // should log: 362880
+// console.log(multiplyAll(5, 5, 5, 3)) // should log: 375
+ 
+
+
+// function multiplyAll(...arg) {
+//    // return arg.reduce((acc, cur) => {
+//    //    return acc*=cur
+//    // })
+//   let prod=1;
+  
+//   for (let i = 0; i < arg.length; i+=1) {
+//    prod=prod*=arg[i]
+   
+// }
+//   return prod
+
+//  }
+//  // Uncomment these to check your work!
+//  console.log(multiplyAll(9, 4, 5, 6, 7, 2, 1, 8, 3)) // should log: 362880
+// console.log(multiplyAll(5, 5, 5, 3)) // should log: 375
+ 
+// Same way to do it using the array reduce method
+
+// function multiplyAll(...arg) {
+   // return arg.reduce((acc, cur) => {
+   //    return acc*=cur
+   // })
+//  }
  // Uncomment these to check your work!
- console.log(multiplyAll(9, 4, 5, 6, 7, 2, 1, 8, 3)) // should log: 362880
-console.log(multiplyAll(5, 5, 5, 3)) // should log: 375
+//  console.log(multiplyAll(9, 4, 5, 6, 7, 2, 1, 8, 3)) // should log: 362880
+// console.log(multiplyAll(5, 5, 5, 3)) // should log: 375
  
 
 
