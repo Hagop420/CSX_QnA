@@ -736,7 +736,7 @@
 
 
 // 45)function holidays(arr) {
-  // Do not use a variable to store your result 
+  // Do not use a variable to store your result
   // ADD CODE HERE
   
 //   for(let i=0; i<arr.length; i+=1){
@@ -753,3 +753,16 @@
 // const animals = ["Cats", "Dogs", "Pigs"];
 // console.log(holidays(months)); // should return: "Happy Halloween"
 // console.log(holidays(animals)); // should return: "Have a great day!"
+
+// 46)function addN(arr, n){
+  // ADD CODE HERE
+//   let arrNew;
+//   for(let i=0; i<arr.length; i+=1){
+//     arrNew=[arr[i]+=n]
+//   }
+//   return arr
+// } 
+
+// // Uncomment these to check your work!
+// console.log(addN([1, 2, 3], 3)); // expected log [4, 5, 6]
+// console.log(addN([3, 4, 5], 2)); // expected log [5, 6, 7]
