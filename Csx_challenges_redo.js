@@ -863,3 +863,23 @@
 //  console.log(mergingElements([1, 2, 3, 4], [5, 6, 7, 8])); // expected log [6, 8, 10, 12]
 //  console.log(mergingElements([7, 3, 6, 0], [3, 9, 17, 81])); // expected log [10, 12, 23, 81]
 
+
+
+// 51)
+  // Adding 2 arrays together
+function mergingTripletsAndQuints(array1, array2) {
+  const c = [];
+  for (let i = 0; Math.max(i < array1.length, i < array2.length); i++) {
+    if (array1[i] % 3 === 0 || array1[i] % 5 === 0) {
+      c.push(array1[i] + array2[i]);
+    } else {
+      c.push(array1[i]);
+    }
+  }
+
+        return c;
+}
+
+  // Uncomment these to check your work!
+  console.log(mergingTripletsAndQuints([1, 2, 3, 4, 5, 15], [1, 3, 6, 7, 8, 9])); // expected log [1, 2, 9, 4, 13, 24]
+  console.log(mergingTripletsAndQuints([1, 1, 3, 9, 5, 15], [1, 2, 3, 4, 5, 6])); // expected log [1, 1, 6, 13, 10, 21]
