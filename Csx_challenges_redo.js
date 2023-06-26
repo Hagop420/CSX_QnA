@@ -865,7 +865,7 @@
 
 
 
-// 51)// Adding 2 arrays together
+// 51)// Adding 2 arrays together  ↓
 // function mergingTripletsAndQuints(array1, array2) {
 //   const c = [];
 //   for (let i = 0; Math.max(i < array1.length, i < array2.length); i++) {
