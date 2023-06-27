@@ -945,3 +945,35 @@
 // };
 
 // console.log(getTheRange([3, 2, 5, 4, 7, 9, 10])) // expect log [2, 10, 8]
+
+
+
+// 55)function addingAllTheWeirdStuff(array1, array2) {
+
+
+ // ADD CODE HERE
+//   let sumOdd = 0;
+//   let sumEven = 0;
+//   let greaterThan20 = false; // false by default 
+//   for (let i = 0; i < array2.length; i++) {
+//     if (array2[i] % 2 !== 0)
+//       sumOdd += array2[i];
+//     else
+//       sumEven += array2[i];
+//     if (array2[i] > 20)// check if any element > 20
+//       greaterThan20 = true;
+//   }
+//   for (let i = 0; i < array1.length; i++) {
+//     if (array1[i] < 10)
+//       array1[i] += sumOdd;
+//     else if (array1[i] > 10)
+//       array1[i] += sumEven;
+//     if (greaterThan20)// add the +1 if greater than 20
+//       array1[i] += 1;
+//   }
+//   return array1;
+// }
+
+// // Uncomment these to check your work!
+// console.log(addingAllTheWeirdStuff([1, 3, 5, 17, 15], [1, 2, 3, 4, 5])); // expected log [10, 12, 14, 23, 21]
+// console.log(addingAllTheWeirdStuff([1, 3, 5, 17, 15, 1], [1, 2, 3, 4, 5, 22])); // expected log [11, 13, 15, 46, 44, 11]
