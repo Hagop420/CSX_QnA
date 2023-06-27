@@ -884,22 +884,30 @@
 //   console.log(mergingTripletsAndQuints([1, 1, 3, 9, 5, 15], [1, 2, 3, 4, 5, 6])); // expected log [1, 1, 6, 13, 10, 21]
 
 
-function imAboutToExplodeWithExcitement(n) {
-  // ADD CODE HERE
-  
-  while (n >= 0) {
-    console.log(n);
-    if (n === 5) {
-      console.log(`Oh wow, I can't handle the anticipation!`)
-      // continue;
-    } else if (n === 3) {
-      console.log(`I'm about to explode with excitement!`)
-      // continue;
-    }
-    
-    n--
-  }
-}
+// decrementation
 
-// Uncomment the line below to check your work!
-imAboutToExplodeWithExcitement(10) // expected log 10, 9, 8, 7, 6, 'Oh wow, I can't handle the anticipation!', 4, I'm about to explode with excitement!', 2, 1, 'That was kind of a let down'
+// 52)function imAboutToExplodeWithExcitement(n) {
+  
+//   while (n >= 0) {
+//     if (n === 5) {
+//       console.log(`Oh wow, I can't handle the anticipation!`)
+//       n--
+//       continue;
+//     } else if (n === 3) {
+//       console.log(`I'm about to explode with excitement!`)
+//       n--
+//       continue;
+//     }else if(n===0){
+//       console.log(`That was kind of a let down`)
+//       // n--
+      
+//       break;
+//     }
+//         console.log(n);
+
+//     n--
+//   }
+// }
+
+// // Uncomment the line below to check your work!
+// imAboutToExplodeWithExcitement(10) // expected log 10, 9, 8, 7, 6, 'Oh wow, I can't handle the anticipation!', 4, I'm about to
