@@ -927,3 +927,21 @@
 
 // // Uncomment the line below to check your work!
 // console.log(closestToTheMark(25, 75));
+
+
+
+// 54)const getTheRange = (arr) => {
+//   let low = arr[0],
+//   high = arr[0];
+// for (let i = 1; i < arr.length; i++) {
+//   if (arr[i] < low) {
+//     low = arr[i];
+//   } else {
+//     high = arr[i];
+//   }
+// }
+// let range = high - low;
+// return [low, high, range];
+// };
+
+// console.log(getTheRange([3, 2, 5, 4, 7, 9, 10])) // expect log [2, 10, 8]
