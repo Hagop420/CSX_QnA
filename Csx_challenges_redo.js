@@ -911,3 +911,19 @@
 
 // // Uncomment the line below to check your work!
 // imAboutToExplodeWithExcitement(10) // expected log 10, 9, 8, 7, 6, 'Oh wow, I can't handle the anticipation!', 4, I'm about to
+
+// 53)function closestToTheMark(player1, player2){
+//   const theMark = Math.floor(Math.random() * 100)
+//   console.log(`If theMark is ${theMark}...`);
+//   // ADD CODE HERE
+//   let res;
+//   if(player1>theMark){
+//     res= `Player 1 is closest`
+//   }else if(player2>theMark){
+//     return `Player 2 is closest`
+//   }
+//   return res
+// }
+
+// // Uncomment the line below to check your work!
+// console.log(closestToTheMark(25, 75));
