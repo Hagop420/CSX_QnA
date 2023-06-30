@@ -995,3 +995,16 @@
 // console.log(disemvowel('CodeSmith')); // => 'CdSmth'
 // console.log(disemvowel('BANANA')); // => 'BNN'
 // console.log(disemvowel('hello world')); // => 'hll wrld'
+
+
+
+
+// 57)// ADD CODE HERE 
+
+// const addWaldo=()=>{
+  
+// }
+
+// // Uncomment these to check your work!
+// const siliconValley = {'Richard': 'Hendricks', 'Erlich': 'Bachman', 'Bertram': 'Gilfoyle'}
+// console.log(addWaldo(siliconValley)) // should log:{ Richard: 'Hendricks', Erlich: 'Bachman', Bertram: 'Gilfoyle', Waldo: 'unknown' }
