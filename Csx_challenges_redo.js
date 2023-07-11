@@ -1013,3 +1013,13 @@
 //   console.log(addWaldo(siliconValley)) // should log:{ Richard: 'Hendricks', Erlich: 'Bachman', Bertram: 'Gilfoyle', Waldo: 'unknown' }Waldo: 'unknown' }
 
 // either or works
+// ADD CODE HERE 
+
+// const addWaldo=(n)=>{
+//   n.Waldo='unknown'
+//     return n
+//   }
+  
+//   // Uncomment these to check your work!
+//   const siliconValley = {'Richard': 'Hendricks', 'Erlich': 'Bachman', 'Bertram': 'Gilfoyle'}
+//   console.log(addWaldo(siliconValley)) // should log:{ Richard: 'Hendricks', Erlich: 'Bachman', Bertram: 'Gilfoyle', Waldo: 'unknown' }
