@@ -1023,3 +1023,24 @@
 //   // Uncomment these to check your work!
 //   const siliconValley = {'Richard': 'Hendricks', 'Erlich': 'Bachman', 'Bertram': 'Gilfoyle'}
 //   console.log(addWaldo(siliconValley)) // should log:{ Richard: 'Hendricks', Erlich: 'Bachman', Bertram: 'Gilfoyle', Waldo: 'unknown' }
+
+
+// 58)ADD CODE HERE
+
+
+// const findWaldo=(i)=>{
+//   if(i.hasOwnProperty('Waldo')){
+//     return 'unknown'
+//   }else{
+//     return "Where's Waldo?"
+//   }
+  
+//   return i
+  
+// }
+
+// // Uncomment these to check your work!
+// const DC = {'Bruce': 'Wayne', 'Harley': 'Quinn'}
+// const supernatural = {'Sam': 'Winchester', 'Dean': 'Winchester', 'Waldo': 'unknown'}
+// console.log(findWaldo(DC)) // should log: 'Where's Waldo?'
+// console.log(findWaldo(supernatural)) // should log: 'unknown'
