@@ -1092,3 +1092,29 @@
 // console.log(typeof subtractTwo); // should log: 'function'
 // console.log(typeof map); // should log: 'function'
 // console.log(map([3,4,5], subtractTwo)); // should log: [ 1, 2, 3 ]
+
+
+// 61)// ADD CODE HERE
+
+
+// const forEach=(arr, cb)=>{
+//   let num=[];
+//   for(let i=0; i<arr.length; i+=1){
+//    cb(arr[i]);
+//   }
+//   return num
+// }
+
+// function map(arr, cb) {
+//   const result = [];
+//   forEach(arr, function (element) {
+//     result.push(cb(element));
+//   });
+//   return result;
+// }
+
+// // Uncomment these to check your work!
+// console.log(typeof forEach); // should log: 'function'
+// forEach(['a','b','c'], i => console.log(i)); // should log: 'a', 'b', 'c'
+// console.log(typeof map); // should log: 'function'
+// console.log(map([3,4,5], n => n - 2)); // should log: [1, 2, 3]
