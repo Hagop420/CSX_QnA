@@ -1044,3 +1044,14 @@
 // const supernatural = {'Sam': 'Winchester', 'Dean': 'Winchester', 'Waldo': 'unknown'}
 // console.log(findWaldo(DC)) // should log: 'Where's Waldo?'
 // console.log(findWaldo(supernatural)) // should log: 'unknown'
+
+
+// callbacks and HOAM methods
+
+// 59)// ADD CODE HERE
+// const pluralize=(cb)=>{
+//   return cb.map(function(e) {return e.concat('s')});
+// }
+// // Uncomment these to check your work!
+// const animals = ["dog", "cat", "tree frog"];
+// console.log(pluralize(animals)); // should log: ["dogs", "cats", "tree frogs"]
