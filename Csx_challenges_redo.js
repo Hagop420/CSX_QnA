@@ -1256,3 +1256,29 @@
 //  console.log(reduce(nums, add, 1)); // should log 8
  
  
+
+
+// ADD CODE HERE
+// ADD CODE HERE
+// ADD CODE HERE
+ // should log: [5, 15]
+
+
+//  65)const intersection = (arrays) => {
+//   const allArrays = arrays.reduce((acc, curr) => acc.concat(curr), []);
+
+//   const intersectionArray = allArrays.reduce((acc, curr) => {
+//     if (arrays.every((arr) => arr.includes(curr)) && !acc.includes(curr)) {
+//       acc.push(curr);
+//     }
+//     return acc;
+//   }, []);
+
+//   return intersectionArray;
+// };
+
+// // Uncomment these to check your work!
+// const arr1 = [5, 10, 15, 20];
+// const arr2 = [15, 88, 1, 5, 7];
+// const arr3 = [1, 10, 15, 5, 20];
+// console.log(intersection([arr1, arr2, arr3])); // should log: [5, 15]
