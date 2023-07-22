@@ -1127,7 +1127,6 @@
 
 
 
-// HARD AF
 
 // 61)
 function filterArray(array, callback) {
