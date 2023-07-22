@@ -1167,3 +1167,26 @@
 // // Uncomment these to check your work!
 // console.log(filterArray(arrOfNums, func1)); // should log: [2, 4]
 // console.log(filterArray(arrOfNums, func2)); // should log: [1, 3, 5]
+
+
+// 62)function eitherFilter(array, callback1, callback2) {
+  // ADD CODE HERE
+//   const filteredArray=[]
+  
+//   for(let i=0; i<array.length; i+=1){
+//     if (callback1(array[i], i, array) || callback2(array[i], i, array)) {
+//        filteredArray.push(array[i]);
+//      }
+//    }
+   
+   
+   
+//    return filteredArray
+   
+//  }
+ 
+//  // Uncomment these to check your work!
+//  const arrOfNums = [10, 35, 105, 9];
+//  const integerSquareRoot = n => Math.sqrt(n) % 1 === 0;
+//  const over100 = n => n > 100;
+//  console.log(eitherFilter(arrOfNums, integerSquareRoot, over100)); // should log: [105, 9]
