@@ -1233,3 +1233,26 @@
 // const over100 = n => n > 100;
 // const intSqRtOrOver100 = eitherCallback(integerSquareRoot, over100);
 // console.log(filterArray(arrOfNums, intSqRtOrOver100)); // should log: [105, 9]
+
+
+// 64)// ADD CODE HERE
+// const reduce=(arr, callback, initial)=>{
+//   let acc = initial;
+ 
+//    for (let i = 0; i < arr.length; i++) {
+//      acc = callback(acc, arr[i]);
+//    }
+   
+//  //   for(let array in arr){
+//  //         acc = callback(acc, arr[array]);
+ 
+//  //   }
+ 
+//    return acc;
+//  }
+//  // Uncomment these to check your work!
+//  const nums = [4, 1, 2];
+//  const add = function(a, b) { return a + b; }
+//  console.log(reduce(nums, add, 1)); // should log 8
+ 
+ 
