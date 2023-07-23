@@ -1338,7 +1338,7 @@
 // const objOfMatches=(ar1,ar2,cb)=>{
 //   const matchedObj = {};
 //   for(let i=0; i<ar1.length; i+=1){
-// 	if(cb(ar1[i])===cb(ar2[i] && cb(cb(ar1[i])))){
+// 	if(cb(ar1[i])===cb(ar2[i] && cb(ar1[i])))){
 //       matchedObj[ar1[i]] = ar2[i];
 //     delete matchedObj.howdy;
 //     delete matchedObj.later;
@@ -1352,3 +1352,20 @@
 // const arr2 = ['HI', 'Howdy', 'BYE', 'later', 'HELLO'];
 // function uppercaser(str) { return str.toUpperCase(); }
 // console.log(objOfMatches(arr1, arr2, uppercaser)); // should log: { hi: 'HI', bye: 'BYE', hello: 'HELLO' }
+
+
+// 68)function arrToObj(array, callback) {
+  // let objHere={}
+  // array.forEach(el=>{
+  //   const key1=array[0]
+  //      const key2=array[1]
+  //       objHere[key1]=capitalize(key1)
+  //     objHere[key2]=capitalize(key2)
+  // })
+  // return objHere
+  // }
+  
+  // // Uncomment these to check your work!
+  // const arrOfStrings = ['beer', 'glue'];
+  // const capitalize = str => str.toUpperCase();
+  // console.log(arrToObj(arrOfStrings, capitalize)); // should log: { beer: 'BEER', glue: 'GLUE' }
