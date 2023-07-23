@@ -1333,4 +1333,22 @@
 
 // SAME RESULT
 
+// ADD CODE HERE
 
+// const objOfMatches=(ar1,ar2,cb)=>{
+//   const matchedObj = {};
+//   for(let i=0; i<ar1.length; i+=1){
+// 	if(cb(ar1[i])===cb(ar2[i] && cb(cb(ar1[i])))){
+//       matchedObj[ar1[i]] = ar2[i];
+//     delete matchedObj.howdy;
+//     delete matchedObj.later;
+//   }
+//   }
+  
+//   return matchedObj
+// }
+// // Uncomment these to check your work!
+// const arr1 = ['hi', 'howdy', 'bye', 'later', 'hello'];
+// const arr2 = ['HI', 'Howdy', 'BYE', 'later', 'HELLO'];
+// function uppercaser(str) { return str.toUpperCase(); }
+// console.log(objOfMatches(arr1, arr2, uppercaser)); // should log: { hi: 'HI', bye: 'BYE', hello: 'HELLO' }
