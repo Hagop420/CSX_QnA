@@ -1303,3 +1303,29 @@
 //   const arr2 = [15, 88, 1, 5, 7];
 //   const arr3 = [100, 15, 10, 1, 5];
 //   console.log(union([arr1, arr2, arr3])); // should log: [5, 10, 15, 88, 1, 7, 100]
+
+
+
+
+
+// 67)// ADD CODE HERE
+
+// const objOfMatches=(ar1,ar2,cb)=>{
+//   let matchedObj = {};
+//   for(let i=0; i<ar1.length; i+=1){
+//     const key1=ar1[i]
+//         const key2=ar2[i]
+
+// 	if(cb(key1)===key2){
+//     matchedObj[key1] = key2;
+//   }
+    
+//   }
+  
+//   return matchedObj
+// }
+// // Uncomment these to check your work!
+// const arr1 = ['hi', 'howdy', 'bye', 'later', 'hello'];
+// const arr2 = ['HI', 'Howdy', 'BYE', 'later', 'HELLO'];
+// function uppercaser(str) { return str.toUpperCase(); }
+// console.log(objOfMatches(arr1, arr2, uppercaser)); // should log: { hi: 'HI', bye: 'BYE', hello: 'HELLO' }
