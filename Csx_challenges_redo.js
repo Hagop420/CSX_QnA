@@ -1282,3 +1282,24 @@
 // const arr2 = [15, 88, 1, 5, 7];
 // const arr3 = [1, 10, 15, 5, 20];
 // console.log(intersection([arr1, arr2, arr3])); // should log: [5, 15]
+
+
+// 66)// ADD CODE HERE
+
+// const union=(uni)=>{
+//   const newArray=[]
+//       for(let i=0; i<uni.length; i+=1){
+//             for(let j=0; j<uni[i].length; j+=1){
+//           if (newArray.indexOf(uni[i][j]) === -1)
+//               newArray.push(uni[i][j]);
+              
+//       }
+//       }
+//   return newArray
+      
+//       }
+//   // Uncomment these to check your work!
+//   const arr1 = [5, 10, 15];
+//   const arr2 = [15, 88, 1, 5, 7];
+//   const arr3 = [100, 15, 10, 1, 5];
+//   console.log(union([arr1, arr2, arr3])); // should log: [5, 10, 15, 88, 1, 7, 100]
