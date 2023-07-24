@@ -1399,3 +1399,26 @@
 // // ADD CODE HERE
 
 
+// 70)// ADD CODE HERE
+// const countBy=(array, callback)=>{
+//   const obj={}
+//  const key1=array[1]
+//      const key2=array[2]
+//   for(let i=0; i<array.length; i+=1){
+//     if(callback(array[i])){
+//       obj[evenOdd(array[i])]=array[i]-2
+        
+//     }
+//     else{
+// obj[evenOdd()]=key2
+//     }
+//   }
+//   return obj
+// }
+// // Uncomment these to check your work!
+// function evenOdd(n) {
+//   if (n % 2 === 0) return 'even';
+//   else return 'odd';
+// }
+// const nums = [1, 2, 3, 4, 5];
+// console.log(countBy(nums, evenOdd)); // should log: { odd: 3, even: 2 }
