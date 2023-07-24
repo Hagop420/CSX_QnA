@@ -1422,3 +1422,24 @@
 // }
 // const nums = [1, 2, 3, 4, 5];
 // console.log(countBy(nums, evenOdd)); // should log: { odd: 3, even: 2 }
+
+
+// 71)function groupBy(array, callback) {
+//   let obj = {};
+//   for (let i of array) {
+//     let key = callback(i);
+//     if (obj[key] === undefined) {
+//       obj[key] = [];
+//     }else{
+//     obj[key].push(i);
+//     }
+//   }
+//   return obj;
+// }
+
+// const decimals = [1.3, 2.1, 2.4];
+// const floored = function(num) {
+//   return Math.floor(num);
+// };
+
+// console.log(groupBy(decimals, floored));
