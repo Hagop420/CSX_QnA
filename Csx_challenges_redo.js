@@ -1369,3 +1369,33 @@
   // const arrOfStrings = ['beer', 'glue'];
   // const capitalize = str => str.toUpperCase();
   // console.log(arrToObj(arrOfStrings, capitalize)); // should log: { beer: 'BEER', glue: 'GLUE' }
+
+
+
+
+
+
+  // ADD CODE HERE
+// ADD CODE HERE
+
+// 69)const prioritize=(array, callback)=>{
+  // const mainArr=[]
+//   const mainArr=[]
+//   const NONsStarting=[]
+//   for(let i=0; i<array.length; i+=1){
+//     if(callback(array[i])){
+//       mainArr.push(array[i])
+//     }else{
+//       NONsStarting.push(array[i])
+//     }
+// }
+//         return mainArr.concat(NONsStarting)
+
+// }
+// // Uncomment these to check your work!
+// function startsWithS(str) { return str[0].toLowerCase() === 's'; }
+// const tvShows = ['curb', 'rickandmorty', 'seinfeld', 'sunny', 'friends']
+// console.log(prioritize(tvShows, startsWithS)); // should log: ['seinfeld', 'sunny', 'curb', 'rickandmorty', 'friends'
+// // ADD CODE HERE
+
+
