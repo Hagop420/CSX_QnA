@@ -1519,3 +1519,31 @@
 // console.log(addByTwo(1))
 // // Now call addByTwo with an input of 2 and log the output
 // console.log(addByFour(10))
+
+
+// ADD CODE HERE
+// 76)const once=(callback)=>{
+//   let increm=0
+//   let undefine=undefined
+//   const yoyo= (inp)=>{
+//     if(increm===0){
+//       undefine= callback(inp)
+//       increm++
+    
+//     }
+    
+//     return undefine
+//   }
+  
+//                return yoyo
+
+// }
+             
+// const addByTwoOnce = once(function(num) {
+//   return num + 2;
+// });
+
+// // UNCOMMENT THESE TO TEST YOUR WORK!
+// console.log(addByTwoOnce(5));  //should log 7
+// console.log(addByTwoOnce(10));  //should log 7
+// console.log(addByTwoOnce(9001));  //should log 7
