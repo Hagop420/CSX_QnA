@@ -1547,3 +1547,27 @@
 // console.log(addByTwoOnce(5));  //should log 7
 // console.log(addByTwoOnce(10));  //should log 7
 // console.log(addByTwoOnce(9001));  //should log 7
+
+
+
+// 77)// ADD CODE HERE
+// const saveOutput=(func, pass)=>{
+//   const obj={}
+  
+//   const hopper=(number)=>{
+//     if(number!==pass){
+//        obj[number]=func(number)
+//       return obj[number]
+//        }else{
+//        return obj
+//        }
+    
+//   }
+//   return hopper
+// }
+// // Uncomment these to check your work!
+// const multiplyBy2 = function(num) { return num * 2; };
+// const multBy2AndLog = saveOutput(multiplyBy2, 'boo');
+// console.log(multBy2AndLog(2)); // should log: 4
+// console.log(multBy2AndLog(9)); // should log: 18
+// console.log(multBy2AndLog('boo')); // should log: { 2: 4, 9: 18 }
