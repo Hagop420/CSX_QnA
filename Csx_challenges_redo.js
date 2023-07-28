@@ -1610,3 +1610,38 @@
 // const subtract = function(big, small) { return big - small; };
 // const subFrom20 = defineFirstArg(subtract, 20);
 // console.log(subFrom20(5)); // should log: 15
+
+
+
+
+// 80)function hobbyTracker(hobbies) {
+//   const obj = {};
+//   hobbies.forEach(hby => (obj[hby] = 0));
+
+//   const funcRet = (hobby, hours) => {
+//     if (hobby === undefined) {
+//       for (let hobby in obj) {
+//         obj[hobby] = 0;
+//       }
+//       return 'tracker has been reset!';
+//     }
+
+//     if (obj[hobby] === undefined) {
+//       obj[hobby] = hours;
+//     } else {
+//       obj[hobby] += hours;
+//     }
+//     return obj;
+//   };
+
+//   return funcRet;
+// }
+
+// // Usage:
+// const updateHobbies = hobbyTracker(['yoga', 'baking', 'piano']);
+// updateHobbies('yoga', 2);
+// updateHobbies('baking', 4);
+// updateHobbies('yoga', 1);
+// console.log(updateHobbies('piano', 2)); // --> { yoga: 3, baking: 4, piano: 2 }
+// console.log(updateHobbies()); // --> 'tracker has been reset!'
+// console.log(updateHobbies('baking', 1)); // --> { yoga: 0, baking: 1, piano: 0 }
