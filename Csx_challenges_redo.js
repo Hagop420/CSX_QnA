@@ -1688,3 +1688,13 @@
 // console.log(repeater('g'));
 // console.log(repeater('j'));
 
+// 82)function factorial(num, fac) {
+//   if(num === 1){
+//     return num;
+// }
+// return num * factorial(num-1) 
+// }
+
+// // To check if you've completed the challenge, uncomment these console.logs!
+// console.log(factorial(4)); // -> 24
+// console.log(factorial(6)); // -> 720
