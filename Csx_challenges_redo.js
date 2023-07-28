@@ -1663,3 +1663,28 @@
 // // Uncomment these to check your work!
 // console.log(makePlural(arr1)); // should log: ['lions', 'tigers', 'bears']
 // console.log(makePlural(arr2)); // should log: ['computers', 'video games', 'systems']
+
+
+// 81)console.log('Hello, world!');
+
+// function repeater(char) {
+//   const rec=`${char}${char}${char}${char}${char}`
+// 	return rec
+// }
+
+// // To check if you've completed the challenge, uncomment these console.logs!
+// console.log(repeater('g'));
+// console.log(repeater('j'));
+
+// SAME RESULT BUT RECURSION
+
+
+//  function repeater(char, count = 5) { /*¹*/
+//     if(count <= 1) return char;
+//     return char + repeater(char, count - 1);
+//  }
+
+// // To check if you've completed the challenge, uncomment these console.logs!
+// console.log(repeater('g'));
+// console.log(repeater('j'));
+
