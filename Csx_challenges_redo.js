@@ -1716,3 +1716,21 @@
 // console.log(getLength([1, 2])); // -> 2
 // console.log(getLength([1, 2, 3, 4, 5])); // -> 5
 // console.log(getLength([])); // -> 0
+
+
+
+// 84)function pow(base, exponent) {
+
+// let power = Math.pow(base,exponent );
+// return power
+  
+  //   if (exponent === 0) {
+  //     return 1; 
+  //   } else {
+  //     return base * pow(base, exponent - 1);
+  //   }
+  // }
+  
+  // // To check if you've completed the challenge, uncomment these console.logs!
+  // console.log(pow(2, 4)); // -> 16
+  // console.log(pow(3, 5)); // -> 243
