@@ -1571,3 +1571,29 @@
 // console.log(multBy2AndLog(2)); // should log: 4
 // console.log(multBy2AndLog(9)); // should log: 18
 // console.log(multBy2AndLog('boo')); // should log: { 2: 4, 9: 18 }
+
+
+
+// 78)// ADD CODE HERE
+// const cycleIterator=(arr)=>{
+//   let inc=0;
+//   let newnew;
+//   const iterateFunc=()=>{
+   
+//        if(inc<arr.length){
+//          newnew=arr[inc]
+//          inc++
+//        }else{
+//          return arr[0]
+//        }
+//     return newnew
+//   }
+//   return iterateFunc
+// }
+// // Uncomment these to check your work!
+// const threeDayWeekend = ['Fri', 'Sat', 'Sun'];
+// const getDay = cycleIterator(threeDayWeekend);
+// console.log(getDay()); // should log: 'Fri'
+// console.log(getDay()); // should log: 'Sat'
+// console.log(getDay()); // should log: 'Sun'
+// console.log(getDay()); // should log: 'Fri'
