@@ -1645,3 +1645,21 @@
 // console.log(updateHobbies('piano', 2)); // --> { yoga: 3, baking: 4, piano: 2 }
 // console.log(updateHobbies()); // --> 'tracker has been reset!'
 // console.log(updateHobbies('baking', 1)); // --> { yoga: 0, baking: 1, piano: 0 }
+
+
+
+// FUNCTIONS AND EXECUTION CONTEXT - I FORGOT
+
+// function makePlural(arr){
+//   // ADD CODE HERE
+//   return arr.map(i => `${i}s`);
+
+// } 
+
+
+// const arr1 = ['lion', 'tiger', 'bear']
+// const arr2 = ['computer', 'video game', 'system']
+
+// // Uncomment these to check your work!
+// console.log(makePlural(arr1)); // should log: ['lions', 'tigers', 'bears']
+// console.log(makePlural(arr2)); // should log: ['computers', 'video games', 'systems']
