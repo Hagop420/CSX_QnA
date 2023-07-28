@@ -1734,3 +1734,47 @@
   // // To check if you've completed the challenge, uncomment these console.logs!
   // console.log(pow(2, 4)); // -> 16
   // console.log(pow(3, 5)); // -> 243
+
+
+
+  // 85)function flow(input, funcArray) {
+//  if (funcArray.length === 0) return input 
+  
+//  const output = funcArray[0](input)
+//  return flow(output, funcArray.slice(1))
+// }
+
+// // To check if you've completed the challenge, uncomment this code!
+// function multiplyBy2(num) { return num * 2; }
+// function add7(num) { return num + 7; }
+// function modulo4(num) { return num % 4; }
+// function subtract10(num) { return num - 10; }
+// const arrayOfFunctions = [multiplyBy2, add7, modulo4, subtract10];
+// console.log(flow(2, arrayOfFunctions)); // -> -7
+
+
+// 86)function shuffleCards(topHalf, bottomHalf) {
+//   if (topHalf.length === 0) {
+//     return bottomHalf;
+//   }else if (bottomHalf.length === 0) {
+//     return topHalf; 
+//   }
+//   const [topCard, ...restTop] = topHalf;
+//   const [bottomCard, ...restBottom] = bottomHalf; 
+
+//   return [topCard, bottomCard, ...shuffleCards(restTop, restBottom)]; 
+// }
+
+// // UNCOMMENT TO TEST YOUR WORK
+// const topHalf = ['Queen of Diamonds', 'Five of Hearts', 'Ace of Spades', 'Eight of Clubs'];
+// const bottomHalf = ['Jack of Hearts', 'Ten of Spades'];
+// console.log(shuffleCards(topHalf, bottomHalf));
+// /* Output:
+//   ['Queen of Diamonds',
+//    'Jack of Hearts',
+//    'Five of Hearts',
+//    'Ten of Spades',
+//    'Ace of Spades',
+//    'Eight of Clubs',
+//   ]
+// */
