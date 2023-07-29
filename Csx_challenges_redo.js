@@ -1937,3 +1937,88 @@
 
 // // Uncomment this line to check your work!
 // mike.introduce(); // -> Logs 'Hi, my name is Mike'
+
+
+// 94)class Dog {
+//     constructor(name, breed) {
+//       this.name = name
+//       this.breed = breed
+//       this.tricks = []
+//   }
+
+//   learnTrick(trick) {
+//       this.tricks.push(trick)
+//   }
+
+//   performTrick(trick) {
+//       if (this.tricks.includes(trick)) {
+//           console.log(`${this.name} performed ${trick}!`)
+//       } else {
+//           console.log(`${this.name} doesn't know how to ${trick}...`)
+//       }
+//   }
+// }
+
+// //
+
+// const fido = new Dog('Fido', 'poodle');
+
+// // Uncomment these lines to check your work!
+// fido.learnTrick('fetch');
+// fido.performTrick('fetch'); // should log 'Fido performed fetch!'
+// fido.performTrick('sit'); // should log 'Fido doesn't know that trick.'
+
+
+// 95)class Inventory {
+//   constructor(item, price) {
+//     this[item] = {
+//       price: price,
+//       quantity: 1,
+//     };
+//   }
+
+//   addItem(item, price) {
+//     if (this[item]) {
+//       this[item].quantity++;
+//       this[item].price = price;
+//     } else {
+//       this[item] = {
+//         price: price,
+//         quantity: 1,
+//       };
+//     }
+//   }
+
+//   deleteItem(item) {
+//     if (this[item]) {
+//       if (this[item].quantity > 0) {
+//         this[item].quantity--;
+//         return 'Deleted';
+//       } else {
+//         return 'Nothing to delete';
+//       }
+//     }
+//   }
+
+//   checkItem(item) {
+//     if (this[item]) {
+//       return this[item];
+//     } else {
+//       return 'Item is not in inventory';
+//     }
+//   }
+// }
+
+// // Example usage:
+// const inventory1 = new Inventory('apple', 1.25);
+// inventory1.addItem('apple', 1.5);
+// inventory1.addItem('banana', 0.5);
+
+// console.log(inventory1.checkItem('apple')); // Output: { price: 1.5, quantity: 2 }
+// console.log(inventory1.checkItem('banana')); // Output: { price: 0.5, quantity: 1 }
+// console.log(inventory1.checkItem('orange')); // Output: 'Item is not in inventory'
+
+// console.log(inventory1.deleteItem('apple')); // Output: 'Deleted'
+// console.log(inventory1.checkItem('apple')); // Output: { price: 1.5, quantity: 1 }
+// console.log(inventory1.deleteItem('apple')); // Output: 'Deleted'
+// console.log(inventory1.deleteItem('apple')); // Output: 'Nothing to delete'
