@@ -1725,7 +1725,7 @@
 // return power
   
   //   if (exponent === 0) {
-  //     return 1; 
+  //     return 1;
   //   } else {
   //     return base * pow(base, exponent - 1);
   //   }
@@ -1794,3 +1794,18 @@
   
   // // Uncomment this line to check your work!
   // personStore.greet(); // -> Logs 'hello'
+
+  
+  // 88)function makePerson(name, age) {
+//   const obj={name, age}
+
+//   return obj
+
+
+// }
+
+// const vicky = makePerson('Vicky', 24);
+
+
+// // Uncomment these lines to check your work!
+// console.log(vicky.name); // -> Logs 'Vi
