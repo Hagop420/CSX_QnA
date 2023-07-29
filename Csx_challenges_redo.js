@@ -2039,3 +2039,32 @@
 
 // // Uncomment this line to check your work!
 // george.greet(); // -> Logs 'hello'
+
+
+// 97)class PersonClass {
+//   constructor(name) {
+//     this.name = name;
+//   }
+
+//   greet() {
+//     console.log('hello');
+//   }
+
+//   introduce() {
+//     console.log(`Hello World, my name is ${this.name}`);
+//   }
+// }
+
+// class DeveloperClass extends PersonClass {
+//   constructor(name, age) {
+//     super(name); // Call the parent class constructor with the 'name' parameter
+//     this.age = age;
+//   }
+// }
+
+// const thai = new DeveloperClass('Thai', 32);
+
+// // Uncomment these lines to check your work!
+// console.log(thai.name); // -> Logs 'Thai'
+// thai.greet(); // -> Logs 'hello'
+// thai.introduce(); // -> Logs 'Hello World, my name is Thai'
