@@ -2022,3 +2022,20 @@
 // console.log(inventory1.checkItem('apple')); // Output: { price: 1.5, quantity: 1 }
 // console.log(inventory1.deleteItem('apple')); // Output: 'Deleted'
 // console.log(inventory1.deleteItem('apple')); // Output: 'Nothing to delete'
+
+
+
+// 96)class PersonClass {
+//   constructor(name) {
+//     this.name = name;
+//   }
+
+//   greet() {
+//     console.log('hello');
+//   }
+// }
+
+// const george = new PersonClass('George');
+
+// // Uncomment this line to check your work!
+// george.greet(); // -> Logs 'hello'
